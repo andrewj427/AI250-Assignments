@@ -8,7 +8,7 @@ load_dotenv()
 
 paragraph = ("Artificial intelligence and cloud computing work together to power modern digital systems by enabling scalable data processing, rapid model training, and global deployment of intelligent applications. AI relies on the clouds vast storage, flexible compute resources, and managed services to analyze large datasets, automate tasks, and support realtime decision making across industries such as healthcare, finance, retail, and transportation. Cloud platforms make AI accessible to organizations of all sizes by offering prebuilt models, APIs, and tools that reduce complexity. As both technologies evolve, their integration continues to accelerate innovation, improve efficiency, and create new opportunities for smarter, datadriven solutions.")
 
-prompt = f"Summarize the following paragraph into 1 - 2 sentences without over-using commas: \n\n {paragraph}"
+prompt = f"Analyze the emotion / tone of this paragraph: \n\n {paragraph}"
 
 def timed(label, fn):
     start = time.perf_counter()
